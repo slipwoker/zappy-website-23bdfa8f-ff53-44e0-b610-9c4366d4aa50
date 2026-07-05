@@ -1,0 +1,71 @@
+# אגזוז חי - Exhaust Revival — Generative Engine Optimization Map
+
+> Exhaust Revival (אגזוז חי) is a rugged, industrial-style motorcycle and off-road vehicle exhaust repair workshop that breathes new life into worn-out exhaust systems. The brand exudes raw power, craftsmanship, and authenticity — evoking the atmosphere of a real metalworking garage with fire, steel, and engine roar. Services include exhaust repair, internal rock wool replacement, performance restoration, and custom sound tuning. The brand speaks directly to passionate riders who want their machine to sound and perform at its best.
+
+---
+
+## Pages
+
+### בית
+https://exhaust-revival-23bdfa8f.zappy5.app
+סדנת אגזוזים שמחזירה לחיים מערכות פליטה שחוקות. תיקון, שיפוץ והחלפת צמר סלעים עם צליל מותאם אישית לאופנוע ורכב שטח. היכנסו עכשיו ותנו למנוע שלכם לשאוג מחדש!
+
+### תודה - אגזוז חי
+https://exhaust-revival-23bdfa8f.zappy5.app/thank-you
+אגזוז חי - Exhaust Revival - תודה - אגזוז חי
+
+## Legal & Policy
+
+### Privacy Policy
+https://exhaust-revival-23bdfa8f.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://exhaust-revival-23bdfa8f.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://exhaust-revival-23bdfa8f.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://exhaust-revival-23bdfa8f.zappy5.app
+- Endpoint: https://exhaust-revival-23bdfa8f.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `fullname` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About אגזוז חי - Exhaust Revival
+Exhaust Revival (אגזוז חי) is a rugged, industrial-style motorcycle and off-road vehicle exhaust repair workshop that breathes new life into worn-out exhaust systems. The brand exudes raw power, craftsmanship, and authenticity — evoking the atmosphere of a real metalworking garage with fire, steel, and engine roar. Services include exhaust repair, internal rock wool replacement, performance restoration, and custom sound tuning. The brand speaks directly to passionate riders who want their machine to sound and perform at its best.
+
+## Target Audience
+- רוכבי אופנועים ובעלי כלי שטח המעוניינים בשיפוץ ושדרוג אגזוז
+- חובבי אופנועים וחובבי שטח
+- מחפשי ביצועים גבוהים
+- רוכבי אופנועים יוקרתיים
+
+## Industry
+Automotive Repair & Customization
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://exhaust-revival-23bdfa8f.zappy5.app/sitemap.xml
+- Robots: https://exhaust-revival-23bdfa8f.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://exhaust-revival-23bdfa8f.zappy5.app/llms-full.txt
