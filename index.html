@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0506990280" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0506990280';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -847,15 +847,15 @@
   <!-- Decorative Sparks Motif (Bottom Right) -->
   <div class="index-hero-section__spark-motif" aria-hidden="true">
     <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="160" cy="160" r="2" fill="#FF6B00" opacity="0.6"/>
-      <circle cx="140" cy="120" r="1.5" fill="#FF6B00" opacity="0.4"/>
-      <circle cx="180" cy="100" r="1" fill="#FF6B00" opacity="0.5"/>
-      <circle cx="100" cy="170" r="2.5" fill="#FF6B00" opacity="0.3"/>
-      <circle cx="120" cy="140" r="1" fill="#FF6B00" opacity="0.7"/>
-      <circle cx="150" cy="90" r="1.5" fill="#FF6B00" opacity="0.4"/>
-      <circle cx="80" cy="150" r="1" fill="#FF6B00" opacity="0.5"/>
-      <circle cx="170" cy="140" r="2" fill="#FF6B00" opacity="0.3"/>
-      <circle cx="130" cy="180" r="1.5" fill="#FF6B00" opacity="0.6"/>
+      <circle cx="160" cy="160" r="2" fill="#FF6B00" opacity="0.6"></circle>
+      <circle cx="140" cy="120" r="1.5" fill="#FF6B00" opacity="0.4"></circle>
+      <circle cx="180" cy="100" r="1" fill="#FF6B00" opacity="0.5"></circle>
+      <circle cx="100" cy="170" r="2.5" fill="#FF6B00" opacity="0.3"></circle>
+      <circle cx="120" cy="140" r="1" fill="#FF6B00" opacity="0.7"></circle>
+      <circle cx="150" cy="90" r="1.5" fill="#FF6B00" opacity="0.4"></circle>
+      <circle cx="80" cy="150" r="1" fill="#FF6B00" opacity="0.5"></circle>
+      <circle cx="170" cy="140" r="2" fill="#FF6B00" opacity="0.3"></circle>
+      <circle cx="130" cy="180" r="1.5" fill="#FF6B00" opacity="0.6"></circle>
     </svg>
   </div>
 
@@ -871,7 +871,7 @@
       <div class="index-hero-section__cta-group">
         <a href="https://wa.me/972506990280" target="_blank" rel="noopener noreferrer" class="index-hero-section__cta-primary">
           <span>דברו איתנו בוואטסאפ</span>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
         </a>
         <a href="#recent-work" class="index-hero-section__cta-secondary">
           צפו בעבודות שיפוץ אחרונות
@@ -880,15 +880,15 @@
 
       <div class="index-hero-section__trust-line">
         <div class="index-hero-section__trust-item">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
           <span>אבחון מהיר ומדויק</span>
         </div>
         <div class="index-hero-section__trust-item">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-type="icon" data-icon-type="svg"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-type="icon" data-icon-type="svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
           <span>אומנות סדנאית מדויקת</span>
         </div>
         <div class="index-hero-section__trust-item">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-type="icon" data-icon-type="svg"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-type="icon" data-icon-type="svg"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
           <span>כיוון צליל אישי</span>
         </div>
       </div>
@@ -900,17 +900,17 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <filter id="glow-seam" x="-10%" y="-10%" width="120%" height="120%">
-          <feGaussianBlur stdDeviation="3" result="blur"/>
+          <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
           <feMerge>
-            <feMergeNode in="blur"/>
-            <feMergeNode in="SourceGraphic"/>
+            <feMergeNode in="blur"></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
           </feMerge>
         </filter>
       </defs>
       <!-- Dark base fill matching next section -->
-      <path d="M0,80 L0,45 L120,30 L280,50 L450,20 L620,45 L800,25 L980,48 L1120,30 L1200,42 L1200,80 Z" fill="#0D0D0D"/>
+      <path d="M0,80 L0,45 L120,30 L280,50 L450,20 L620,45 L800,25 L980,48 L1120,30 L1200,42 L1200,80 Z" fill="#0D0D0D"></path>
       <!-- Electric-lime glowing seam line -->
-      <path d="M0,45 L120,30 L280,50 L450,20 L620,45 L800,25 L980,48 L1120,30 L1200,42" fill="#0D0D0D" stroke="#B9FF2E" stroke-width="2" filter="url(#glow-seam)" opacity="0.8"/>
+      <path d="M0,45 L120,30 L280,50 L450,20 L620,45 L800,25 L980,48 L1120,30 L1200,42" fill="#0D0D0D" stroke="#B9FF2E" stroke-width="2" filter="url(#glow-seam)" opacity="0.8"></path>
     </svg>
   </div>
 </section>
@@ -931,19 +931,19 @@
       <article class="index-services-section__card index-services-section__card--featured">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10 24H38" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-            <path d="M14 18L10 24L14 30" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M34 18L38 24L34 30" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="24" cy="24" r="3" fill="currentColor"/>
+            <path d="M10 24H38" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M14 18L10 24L14 30" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M34 18L38 24L34 30" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle cx="24" cy="24" r="3" fill="currentColor"></circle>
           </svg>
         </div>
         <div class="index-services-section__card-content">
           <h3 class="index-services-section__card-title">תיקון אגזוזים</h3>
           <p class="index-services-section__card-text">מתקנים כל נזק – מסדקים ועיוותים ועד קורוזיה עמוקה. אנחנו מחזירים למערכת הפליטה את המבנה המקורי והאטימות המלאה שלה, בדיוק כמו שיצאה מהמפעל.</p>
-          <a href="https://wa.me/972506990280?text=היי+אני+מעוניין+בתיקון+אגזוז" target="_blank" rel="noopener noreferrer" class="index-services-section__card-cta">
+          <a href="https://wa.me/972506990280" target="_blank" rel="noopener noreferrer" class="index-services-section__card-cta">
             <span>לתיאום תיקון</span>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </a>
         </div>
@@ -953,19 +953,19 @@
       <article class="index-services-section__card">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 36V12H36V36H12Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-            <path d="M18 20H30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-            <path d="M18 28H30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-            <path d="M24 12V36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M12 36V12H36V36H12Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"></path>
+            <path d="M18 20H30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+            <path d="M18 28H30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+            <path d="M24 12V36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <div class="index-services-section__card-content">
           <h3 class="index-services-section__card-title">החלפת צמר סלעים</h3>
           <p class="index-services-section__card-text">צמר סלעים איכותי שמחזיר את הצליל העמוק והנקי ומרסן רעשים צורמים. אנחנו משתמשים בחומרים עמידים לחום גבוה שמחזיקים מעמד לאורך זמן.</p>
-          <a href="https://wa.me/972506990280?text=היי+אני+מעוניין+בהחלפת+צמר+סלעים+לאגזוז" target="_blank" rel="noopener noreferrer" class="index-services-section__card-cta">
+          <a href="https://wa.me/972506990280" target="_blank" rel="noopener noreferrer" class="index-services-section__card-cta">
             <span>לשיפור הצליל</span>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </a>
         </div>
@@ -975,19 +975,19 @@
       <article class="index-services-section__card">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M14 34L24 14L34 34H14Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-            <path d="M18 28H30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-            <path d="M24 14V8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-            <circle cx="24" cy="6" r="2" fill="currentColor"/>
+            <path d="M14 34L24 14L34 34H14Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"></path>
+            <path d="M18 28H30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+            <path d="M24 14V8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+            <circle cx="24" cy="6" r="2" fill="currentColor"></circle>
           </svg>
         </div>
         <div class="index-services-section__card-content">
           <h3 class="index-services-section__card-title">החזרת ביצועים</h3>
           <p class="index-services-section__card-text">שיפור זרימת הגזים, איטום מלא וכיול מדויק מחזירים לאופנוע את התגובה החדה ואת הכוח שאבד עם השנים. ההבדל מורגש מהרגע הראשון.</p>
-          <a href="https://wa.me/972506990280?text=היי+אני+מעוניין+בשיפור+ביצועים+לאגזוז" target="_blank" rel="noopener noreferrer" class="index-services-section__card-cta">
+          <a href="https://wa.me/972506990280" target="_blank" rel="noopener noreferrer" class="index-services-section__card-cta">
             <span>להחזרת הכוח</span>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </a>
         </div>
@@ -997,19 +997,19 @@
       <article class="index-services-section__card">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 36V12L32 16V32L16 36Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-            <path d="M16 24H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="14" cy="12" r="2" fill="currentColor"/>
-            <circle cx="34" cy="16" r="2" fill="currentColor"/>
+            <path d="M16 36V12L32 16V32L16 36Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"></path>
+            <path d="M16 24H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="14" cy="12" r="2" fill="currentColor"></circle>
+            <circle cx="34" cy="16" r="2" fill="currentColor"></circle>
           </svg>
         </div>
         <div class="index-services-section__card-content">
           <h3 class="index-services-section__card-title">צליל וחיים חדשים</h3>
           <p class="index-services-section__card-text">כיוונון סאונד אישי לפי האופי שלך – מגרגור עמוק ועד שאגה מתגלגלת. אנחנו בונים פרופיל צליל שמתאים בדיוק לסגנון הרכיבה ולתחושה שאתה מחפש.</p>
-          <a href="https://wa.me/972506990280?text=היי+אני+מעוניין+בכיוונון+צליל+לאגזוז" target="_blank" rel="noopener noreferrer" class="index-services-section__card-cta">
+          <a href="https://wa.me/972506990280" target="_blank" rel="noopener noreferrer" class="index-services-section__card-cta">
             <span>לעיצוב הצליל</span>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </a>
         </div>
@@ -1023,26 +1023,26 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="sawtooth-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#3A3F42"/>
-          <stop offset="50%" stop-color="#151719"/>
-          <stop offset="100%" stop-color="#3A3F42"/>
+          <stop offset="0%" stop-color="#3A3F42"></stop>
+          <stop offset="50%" stop-color="#151719"></stop>
+          <stop offset="100%" stop-color="#3A3F42"></stop>
         </linearGradient>
         <radialGradient id="ember-glow-1" cx="30%" cy="100%" r="30%">
-          <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.6"/>
-          <stop offset="100%" stop-color="#FF6B00" stop-opacity="0"/>
+          <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.6"></stop>
+          <stop offset="100%" stop-color="#FF6B00" stop-opacity="0"></stop>
         </radialGradient>
         <radialGradient id="ember-glow-2" cx="80%" cy="100%" r="25%">
-          <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.5"/>
-          <stop offset="100%" stop-color="#FF6B00" stop-opacity="0"/>
+          <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.5"></stop>
+          <stop offset="100%" stop-color="#FF6B00" stop-opacity="0"></stop>
         </radialGradient>
       </defs>
       <!-- Sawtooth Path -->
-      <path d="M0,80 L0,50 L50,30 L100,55 L150,28 L200,52 L250,25 L300,48 L350,32 L400,55 L450,22 L500,50 L550,35 L600,45 L650,28 L700,52 L750,38 L800,48 L850,25 L900,50 L950,30 L1000,55 L1050,22 L1100,48 L1150,35 L1200,50 L1200,80 Z" fill="#161616"/>
+      <path d="M0,80 L0,50 L50,30 L100,55 L150,28 L200,52 L250,25 L300,48 L350,32 L400,55 L450,22 L500,50 L550,35 L600,45 L650,28 L700,52 L750,38 L800,48 L850,25 L900,50 L950,30 L1000,55 L1050,22 L1100,48 L1150,35 L1200,50 L1200,80 Z" fill="#161616"></path>
       <!-- Ember Glow in Two Notches -->
-      <rect x="230" y="0" width="40" height="80" fill="url(#ember-glow-1)"/>
-      <rect x="830" y="0" width="40" height="80" fill="url(#ember-glow-2)"/>
+      <rect x="230" y="0" width="40" height="80" fill="url(#ember-glow-1)"></rect>
+      <rect x="830" y="0" width="40" height="80" fill="url(#ember-glow-2)"></rect>
       <!-- Subtle Lime Accent Line -->
-      <path d="M0,50 L50,30 L100,55 L150,28 L200,52 L250,25 L300,48 L350,32 L400,55 L450,22 L500,50 L550,35 L600,45 L650,28 L700,52 L750,38 L800,48 L850,25 L900,50 L950,30 L1000,55 L1050,22 L1100,48 L1150,35 L1200,50" fill="#161616" stroke="#B9FF2E" stroke-width="1.5" stroke-opacity="0.3"/>
+      <path d="M0,50 L50,30 L100,55 L150,28 L200,52 L250,25 L300,48 L350,32 L400,55 L450,22 L500,50 L550,35 L600,45 L650,28 L700,52 L750,38 L800,48 L850,25 L900,50 L950,30 L1000,55 L1050,22 L1100,48 L1150,35 L1200,50" fill="#161616" stroke="#B9FF2E" stroke-width="1.5" stroke-opacity="0.3"></path>
     </svg>
   </div>
 </section>
@@ -1062,7 +1062,7 @@
         <ul class="index-benefits-section__benefits-list">
           <li class="index-benefits-section__benefit-row">
             <div class="index-benefits-section__benefit-icon">
-              <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg>
+              <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"></path></svg>
             </div>
             <div class="index-benefits-section__benefit-text">
               <h3 class="index-benefits-section__benefit-title">צליל עמוק ועוצמתי, ללא רעש בלתי נשלט</h3>
@@ -1071,7 +1071,7 @@
           </li>
           <li class="index-benefits-section__benefit-row">
             <div class="index-benefits-section__benefit-icon">
-              <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94L14.4 2.81c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41L9.25 5.35c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" fill="currentColor"/></svg>
+              <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94L14.4 2.81c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41L9.25 5.35c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" fill="currentColor"></path></svg>
             </div>
             <div class="index-benefits-section__benefit-text">
               <h3 class="index-benefits-section__benefit-title">זרימה ואטימה משוחזרות במלואן</h3>
@@ -1080,7 +1080,7 @@
           </li>
           <li class="index-benefits-section__benefit-row">
             <div class="index-benefits-section__benefit-icon">
-              <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" fill="currentColor"/></svg>
+              <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" fill="currentColor"></path></svg>
             </div>
             <div class="index-benefits-section__benefit-text">
               <h3 class="index-benefits-section__benefit-title">גישה מותאמת אישית לכל כלי</h3>
@@ -1091,7 +1091,7 @@
 
         <!-- CTA -->
         <a href="https://wa.me/972506990280" class="index-benefits-section__cta" target="_blank" rel="noopener noreferrer">
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.05 4.91C17.18 3.03 14.67 2 12 2 6.48 2 2 6.48 2 12c0 1.77.47 3.5 1.35 5.01L2 22l5.16-1.35C8.63 21.53 10.29 22 12 22c5.52 0 10-4.48 10-10 0-2.67-1.03-5.18-2.95-7.09zM12 20c-1.56 0-3.08-.4-4.42-1.15l-.32-.18-3.06.8.82-2.98-.2-.33C3.83 15.04 3.4 13.55 3.4 12 3.4 7.26 7.26 3.4 12 3.4c2.3 0 4.46.9 6.08 2.52 1.62 1.62 2.52 3.78 2.52 6.08 0 4.74-3.86 8.6-8.6 8.6zm4.72-6.44c-.26-.13-1.53-.75-1.77-.84-.24-.09-.41-.13-.58.13-.17.26-.67.84-.82 1.01-.15.17-.3.19-.56.06-.26-.13-1.1-.4-2.09-1.29-.77-.69-1.29-1.54-1.44-1.8-.15-.26-.02-.4.11-.53.12-.12.26-.3.39-.45.13-.15.17-.26.26-.43.09-.17.04-.32-.02-.45-.06-.13-.58-1.4-.8-1.92-.21-.5-.42-.43-.58-.44-.15-.01-.32-.01-.49-.01-.17 0-.45.06-.68.32-.23.26-.89.87-.89 2.12 0 1.25.91 2.46 1.04 2.63.13.17 1.79 2.73 4.34 3.83.61.26 1.08.42 1.45.54.61.19 1.16.16 1.6.1.49-.07 1.5-.61 1.71-1.2.21-.59.21-1.1.15-1.2-.06-.1-.24-.17-.5-.3z" fill="currentColor"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.05 4.91C17.18 3.03 14.67 2 12 2 6.48 2 2 6.48 2 12c0 1.77.47 3.5 1.35 5.01L2 22l5.16-1.35C8.63 21.53 10.29 22 12 22c5.52 0 10-4.48 10-10 0-2.67-1.03-5.18-2.95-7.09zM12 20c-1.56 0-3.08-.4-4.42-1.15l-.32-.18-3.06.8.82-2.98-.2-.33C3.83 15.04 3.4 13.55 3.4 12 3.4 7.26 7.26 3.4 12 3.4c2.3 0 4.46.9 6.08 2.52 1.62 1.62 2.52 3.78 2.52 6.08 0 4.74-3.86 8.6-8.6 8.6zm4.72-6.44c-.26-.13-1.53-.75-1.77-.84-.24-.09-.41-.13-.58.13-.17.26-.67.84-.82 1.01-.15.17-.3.19-.56.06-.26-.13-1.1-.4-2.09-1.29-.77-.69-1.29-1.54-1.44-1.8-.15-.26-.02-.4.11-.53.12-.12.26-.3.39-.45.13-.15.17-.26.26-.43.09-.17.04-.32-.02-.45-.06-.13-.58-1.4-.8-1.92-.21-.5-.42-.43-.58-.44-.15-.01-.32-.01-.49-.01-.17 0-.45.06-.68.32-.23.26-.89.87-.89 2.12 0 1.25.91 2.46 1.04 2.63.13.17 1.79 2.73 4.34 3.83.61.26 1.08.42 1.45.54.61.19 1.16.16 1.6.1.49-.07 1.5-.61 1.71-1.2.21-.59.21-1.1.15-1.2-.06-.1-.24-.17-.5-.3z" fill="currentColor"></path></svg>
           אבחון ראשוני בוואטסאפ
         </a>
       </div>
@@ -1115,19 +1115,19 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="index-benefits-fade" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#161616" stop-opacity="0"/>
-          <stop offset="100%" stop-color="#0D0D0D" stop-opacity="1"/>
+          <stop offset="0%" stop-color="#161616" stop-opacity="0"></stop>
+          <stop offset="100%" stop-color="#0D0D0D" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
       <!-- Broad fade from smoke to graphite -->
-      <rect x="0" y="0" width="1200" height="80" fill="url(#index-benefits-fade)"/>
+      <rect x="0" y="0" width="1200" height="80" fill="url(#index-benefits-fade)"></rect>
       <!-- Thin lime diagnostic line -->
-      <line x1="0" y1="70" x2="1200" y2="70" stroke="#C8F000" stroke-width="2" stroke-opacity="0.4" stroke-dasharray="8 6"/>
+      <line x1="0" y1="70" x2="1200" y2="70" stroke="#C8F000" stroke-width="2" stroke-opacity="0.4" stroke-dasharray="8 6"></line>
     </svg>
   </div>
 </section>
 
-<section data-band-index="3" id="gallery" class="index-gallery-section" data-layout-spec="בית-gallery"><div class="index-gallery-section__container"><div class="index-gallery-section__header"><h2 class="index-gallery-section__title">העבודות שלנו מדברות בעד עצמן</h2><p class="index-gallery-section__subtitle">משיפוץ פנימי ועד שחזור ביצועים – כל אגזוז מקבל חיים חדשים</p></div><div class="index-gallery-section__grid"><div class="index-gallery-section__tile index-gallery-section__tile--large"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-1" data-context="Before and after of a motorcycle exhaust repair showing a rusted, damaged muffler being restored with fresh welding, set in a dark industrial workshop with sparks and metal tools" width="800" height="600" src="/assets/site-index-gallery-image-1.webp" alt="תיקון אגזוז אופנוע - לפני ואחרי"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">תיקון אגזוזים</span></div></div><div class="index-gallery-section__tile index-gallery-section__tile--large"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-2" data-context="Close-up of opened muffler internals showing fresh white rock wool replacement being packed into a motorcycle exhaust, tools and workbench visible in a dimly lit garage" width="800" height="600" src="/assets/site-index-gallery-image-2.webp" alt="החלפת צמר סלעים פנימי באגזוז"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">החלפת צמר סלעים</span></div></div><div class="index-gallery-section__tile"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-3" data-context="Welding close-up on a custom exhaust pipe seam, bright orange sparks flying, dark industrial atmosphere with metal reflections" width="600" height="400" src="/assets/site-index-gallery-image-3.webp" alt="שחזור תפר ריתוך באגזוז"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">שחזור תפרים</span></div></div><div class="index-gallery-section__tile"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-4" data-context="Off-road vehicle exhaust body repair showing a dented skid plate and exhaust pipe being straightened on a workbench with heavy-duty tools" width="600" height="400" src="/assets/site-index-gallery-image-4.webp" alt="תיקון אגזוז רכב שטח"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">תיקון שטח</span></div></div><div class="index-gallery-section__tile"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-5" data-context="Performance exhaust system restoration on a motorcycle, before and after split showing dull vs polished chrome finish, dramatic lighting" width="600" height="400" src="/assets/site-index-gallery-image-5.webp" alt="החזרת ביצועים לאגזוז"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">החזרת ביצועים</span></div></div><div class="index-gallery-section__tile"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-6" data-context="Custom sound tuning result visualization with a motorcycle exhaust emitting subtle heat waves on a dyno stand, dark moody background" width="600" height="400" src="/assets/site-index-gallery-image-6.webp" alt="כיוון צליל מותאם אישית"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">צליל מותאם</span></div></div></div><p class="index-gallery-section__note">* התמונות להמחשה בלבד — אנו מצלמים כל עבודה ומתעדים את התהליך. צרו קשר ונראה לכם עבודות אמיתיות מהסדנה.</p></div><div class="index-gallery-section__divider-wrapper"><svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="spark-grad" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#B9FF2E" stop-opacity="0.6"/><stop offset="100%" stop-color="#B9FF2E" stop-opacity="0"/></radialGradient></defs><path d="M0,80 L0,35 Q80,25 160,38 T320,30 Q400,42 480,28 T640,35 Q720,25 800,38 T960,30 Q1040,42 1120,28 T1200,35 L1200,80 Z" fill="var(--bg-light)"/><circle cx="180" cy="32" r="2.5" fill="url(#spark-grad)"/><circle cx="420" cy="28" r="1.8" fill="url(#spark-grad)"/><circle cx="680" cy="34" r="2" fill="url(#spark-grad)"/><circle cx="950" cy="30" r="2.2" fill="url(#spark-grad)"/><circle cx="1100" cy="33" r="1.5" fill="url(#spark-grad)"/><circle cx="80" cy="36" r="1.6" fill="url(#spark-grad)"/><circle cx="560" cy="32" r="2.1" fill="url(#spark-grad)"/><circle cx="780" cy="29" r="1.4" fill="url(#spark-grad)"/></svg></div></section>
+<section data-band-index="3" id="gallery" class="index-gallery-section" data-layout-spec="בית-gallery"><div class="index-gallery-section__container"><div class="index-gallery-section__header"><h2 class="index-gallery-section__title">העבודות שלנו מדברות בעד עצמן</h2><p class="index-gallery-section__subtitle">משיפוץ פנימי ועד שחזור ביצועים – כל אגזוז מקבל חיים חדשים</p></div><div class="index-gallery-section__grid"><div class="index-gallery-section__tile index-gallery-section__tile--large"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-1" data-context="Before and after of a motorcycle exhaust repair showing a rusted, damaged muffler being restored with fresh welding, set in a dark industrial workshop with sparks and metal tools" width="800" height="600" src="/assets/site-index-gallery-image-1.webp" alt="תיקון אגזוז אופנוע - לפני ואחרי"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">תיקון אגזוזים</span></div></div><div class="index-gallery-section__tile index-gallery-section__tile--large"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-2" data-context="Close-up of opened muffler internals showing fresh white rock wool replacement being packed into a motorcycle exhaust, tools and workbench visible in a dimly lit garage" width="800" height="600" src="/assets/site-index-gallery-image-2.webp" alt="החלפת צמר סלעים פנימי באגזוז"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">החלפת צמר סלעים</span></div></div><div class="index-gallery-section__tile"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-3" data-context="Welding close-up on a custom exhaust pipe seam, bright orange sparks flying, dark industrial atmosphere with metal reflections" width="600" height="400" src="/assets/site-index-gallery-image-3.webp" alt="שחזור תפר ריתוך באגזוז"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">שחזור תפרים</span></div></div><div class="index-gallery-section__tile"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-4" data-context="Off-road vehicle exhaust body repair showing a dented skid plate and exhaust pipe being straightened on a workbench with heavy-duty tools" width="600" height="400" src="/assets/site-index-gallery-image-4.webp" alt="תיקון אגזוז רכב שטח"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">תיקון שטח</span></div></div><div class="index-gallery-section__tile"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-5" data-context="Performance exhaust system restoration on a motorcycle, before and after split showing dull vs polished chrome finish, dramatic lighting" width="600" height="400" src="/assets/site-index-gallery-image-5.webp" alt="החזרת ביצועים לאגזוז"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">החזרת ביצועים</span></div></div><div class="index-gallery-section__tile"><div class="index-gallery-section__image-wrap"><img loading="lazy" decoding="async" data-placeholder="index-gallery-image-6" data-context="Custom sound tuning result visualization with a motorcycle exhaust emitting subtle heat waves on a dyno stand, dark moody background" width="600" height="400" src="/assets/site-index-gallery-image-6.webp" alt="כיוון צליל מותאם אישית"><div class="index-gallery-section__overlay"></div><span class="index-gallery-section__badge">צליל מותאם</span></div></div></div><p class="index-gallery-section__note">* התמונות להמחשה בלבד — אנו מצלמים כל עבודה ומתעדים את התהליך. צרו קשר ונראה לכם עבודות אמיתיות מהסדנה.</p></div><div class="index-gallery-section__divider-wrapper"><svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="spark-grad" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#B9FF2E" stop-opacity="0.6"></stop><stop offset="100%" stop-color="#B9FF2E" stop-opacity="0"></stop></radialGradient></defs><path d="M0,80 L0,35 Q80,25 160,38 T320,30 Q400,42 480,28 T640,35 Q720,25 800,38 T960,30 Q1040,42 1120,28 T1200,35 L1200,80 Z" fill="var(--bg-light)"></path><circle cx="180" cy="32" r="2.5" fill="url(#spark-grad)"></circle><circle cx="420" cy="28" r="1.8" fill="url(#spark-grad)"></circle><circle cx="680" cy="34" r="2" fill="url(#spark-grad)"></circle><circle cx="950" cy="30" r="2.2" fill="url(#spark-grad)"></circle><circle cx="1100" cy="33" r="1.5" fill="url(#spark-grad)"></circle><circle cx="80" cy="36" r="1.6" fill="url(#spark-grad)"></circle><circle cx="560" cy="32" r="2.1" fill="url(#spark-grad)"></circle><circle cx="780" cy="29" r="1.4" fill="url(#spark-grad)"></circle></svg></div></section>
 
 <section data-band-index="4" id="testimonials" class="index-testimonials-section" data-layout-spec="בית-testimonials">
     <div class="testimonials-container">
@@ -1139,16 +1139,16 @@
                 <div class="card-inner">
                     <div class="quote-mark" aria-hidden="true">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-                            <path d="M10 8C6 8 4 11 4 15C4 20 7 23 11 23C13 23 14 22 14 20C14 18 13 17 11 17C10 17 9 18 9 19C9 20 10 21 11 21C10 22 8 21 7 19C6 16 8 12 10 12C11 12 12 11 12 10C12 9 11 8 10 8Z" fill="#FF6B35"/>
-                            <path d="M22 8C18 8 16 11 16 15C16 20 19 23 23 23C25 23 26 22 26 20C26 18 25 17 23 17C22 17 21 18 21 19C21 20 22 21 23 21C22 22 20 21 19 19C18 16 20 12 22 12C23 12 24 11 24 10C24 9 23 8 22 8Z" fill="#FF6B35"/>
+                            <path d="M10 8C6 8 4 11 4 15C4 20 7 23 11 23C13 23 14 22 14 20C14 18 13 17 11 17C10 17 9 18 9 19C9 20 10 21 11 21C10 22 8 21 7 19C6 16 8 12 10 12C11 12 12 11 12 10C12 9 11 8 10 8Z" fill="#FF6B35"></path>
+                            <path d="M22 8C18 8 16 11 16 15C16 20 19 23 23 23C25 23 26 22 26 20C26 18 25 17 23 17C22 17 21 18 21 19C21 20 22 21 23 21C22 22 20 21 19 19C18 16 20 12 22 12C23 12 24 11 24 10C24 9 23 8 22 8Z" fill="#FF6B35"></path>
                         </svg>
                     </div>
                     <div class="stars" aria-label="5 מתוך 5 כוכבים">
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
                     </div>
                     <blockquote class="testimonial-quote">
                         <p>האגזוז של הק.ט.מ נשמע עכשיו כמו חדש מהמפעל. העבודה הייתה נקייה, מהירה, והבחור ענה לי בוואטסאפ תוך דקות. ממליץ בחום לכל רוכב שטח.</p>
@@ -1164,16 +1164,16 @@
                 <div class="card-inner">
                     <div class="quote-mark" aria-hidden="true">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-                            <path d="M10 8C6 8 4 11 4 15C4 20 7 23 11 23C13 23 14 22 14 20C14 18 13 17 11 17C10 17 9 18 9 19C9 20 10 21 11 21C10 22 8 21 7 19C6 16 8 12 10 12C11 12 12 11 12 10C12 9 11 8 10 8Z" fill="#FF6B35"/>
-                            <path d="M22 8C18 8 16 11 16 15C16 20 19 23 23 23C25 23 26 22 26 20C26 18 25 17 23 17C22 17 21 18 21 19C21 20 22 21 23 21C22 22 20 21 19 19C18 16 20 12 22 12C23 12 24 11 24 10C24 9 23 8 22 8Z" fill="#FF6B35"/>
+                            <path d="M10 8C6 8 4 11 4 15C4 20 7 23 11 23C13 23 14 22 14 20C14 18 13 17 11 17C10 17 9 18 9 19C9 20 10 21 11 21C10 22 8 21 7 19C6 16 8 12 10 12C11 12 12 11 12 10C12 9 11 8 10 8Z" fill="#FF6B35"></path>
+                            <path d="M22 8C18 8 16 11 16 15C16 20 19 23 23 23C25 23 26 22 26 20C26 18 25 17 23 17C22 17 21 18 21 19C21 20 22 21 23 21C22 22 20 21 19 19C18 16 20 12 22 12C23 12 24 11 24 10C24 9 23 8 22 8Z" fill="#FF6B35"></path>
                         </svg>
                     </div>
                     <div class="stars" aria-label="5 מתוך 5 כוכבים">
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
                     </div>
                     <blockquote class="testimonial-quote">
                         <p>החלפת צמר הסלעים שינתה את האופנוע לגמרי. הצליל עמוק ומדויק, והמצערת מגיבה הרבה יותר טוב. עבודה מקצועית ברמה הכי גבוהה שיש.</p>
@@ -1189,16 +1189,16 @@
                 <div class="card-inner">
                     <div class="quote-mark" aria-hidden="true">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-                            <path d="M10 8C6 8 4 11 4 15C4 20 7 23 11 23C13 23 14 22 14 20C14 18 13 17 11 17C10 17 9 18 9 19C9 20 10 21 11 21C10 22 8 21 7 19C6 16 8 12 10 12C11 12 12 11 12 10C12 9 11 8 10 8Z" fill="#FF6B35"/>
-                            <path d="M22 8C18 8 16 11 16 15C16 20 19 23 23 23C25 23 26 22 26 20C26 18 25 17 23 17C22 17 21 18 21 19C21 20 22 21 23 21C22 22 20 21 19 19C18 16 20 12 22 12C23 12 24 11 24 10C24 9 23 8 22 8Z" fill="#FF6B35"/>
+                            <path d="M10 8C6 8 4 11 4 15C4 20 7 23 11 23C13 23 14 22 14 20C14 18 13 17 11 17C10 17 9 18 9 19C9 20 10 21 11 21C10 22 8 21 7 19C6 16 8 12 10 12C11 12 12 11 12 10C12 9 11 8 10 8Z" fill="#FF6B35"></path>
+                            <path d="M22 8C18 8 16 11 16 15C16 20 19 23 23 23C25 23 26 22 26 20C26 18 25 17 23 17C22 17 21 18 21 19C21 20 22 21 23 21C22 22 20 21 19 19C18 16 20 12 22 12C23 12 24 11 24 10C24 9 23 8 22 8Z" fill="#FF6B35"></path>
                         </svg>
                     </div>
                     <div class="stars" aria-label="5 מתוך 5 כוכבים">
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M9 1L11.5 6.5L17 7L12.5 11.5L14 17L9 14L4 17L5.5 11.5L1 7L6.5 6.5L9 1Z" fill="#B9FF2E" stroke="#B9FF2E" stroke-width="1"></path></svg>
                     </div>
                     <blockquote class="testimonial-quote">
                         <p>הגעתי עם אגזוז שרוט ומרוסק, ויצאתי עם משהו שנראה ומרגיש טוב יותר ממקורי. השירות אדיב, המחיר הוגן, והתוצאה מדברת בעד עצמה.</p>
@@ -1264,53 +1264,53 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="index-stats-wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="var(--accent)" stop-opacity="0"/>
-          <stop offset="50%" stop-color="var(--accent)" stop-opacity="1"/>
-          <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+          <stop offset="0%" stop-color="var(--accent)" stop-opacity="0"></stop>
+          <stop offset="50%" stop-color="var(--accent)" stop-opacity="1"></stop>
+          <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"></stop>
         </linearGradient>
       </defs>
       <!-- Segmented dashes simulating an audio waveform -->
-      <rect x="50" y="18" width="20" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"/>
-      <rect x="80" y="14" width="20" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"/>
-      <rect x="110" y="10" width="20" height="20" rx="2" fill="url(#index-stats-wave-grad)" opacity="1"/>
-      <rect x="140" y="14" width="20" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"/>
-      <rect x="170" y="18" width="20" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"/>
+      <rect x="50" y="18" width="20" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"></rect>
+      <rect x="80" y="14" width="20" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"></rect>
+      <rect x="110" y="10" width="20" height="20" rx="2" fill="url(#index-stats-wave-grad)" opacity="1"></rect>
+      <rect x="140" y="14" width="20" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"></rect>
+      <rect x="170" y="18" width="20" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"></rect>
       
-      <rect x="220" y="16" width="16" height="8" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"/>
-      <rect x="246" y="12" width="16" height="16" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.9"/>
-      <rect x="272" y="8" width="16" height="24" rx="2" fill="url(#index-stats-wave-grad)" opacity="1"/>
-      <rect x="298" y="12" width="16" height="16" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.9"/>
-      <rect x="324" y="16" width="16" height="8" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"/>
+      <rect x="220" y="16" width="16" height="8" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"></rect>
+      <rect x="246" y="12" width="16" height="16" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.9"></rect>
+      <rect x="272" y="8" width="16" height="24" rx="2" fill="url(#index-stats-wave-grad)" opacity="1"></rect>
+      <rect x="298" y="12" width="16" height="16" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.9"></rect>
+      <rect x="324" y="16" width="16" height="8" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"></rect>
 
-      <rect x="380" y="18" width="14" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.5"/>
-      <rect x="404" y="14" width="14" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"/>
-      <rect x="428" y="10" width="14" height="20" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.9"/>
-      <rect x="452" y="14" width="14" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"/>
-      <rect x="476" y="18" width="14" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.5"/>
+      <rect x="380" y="18" width="14" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.5"></rect>
+      <rect x="404" y="14" width="14" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"></rect>
+      <rect x="428" y="10" width="14" height="20" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.9"></rect>
+      <rect x="452" y="14" width="14" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"></rect>
+      <rect x="476" y="18" width="14" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.5"></rect>
 
-      <rect x="540" y="17" width="12" height="6" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"/>
-      <rect x="562" y="13" width="12" height="14" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"/>
-      <rect x="584" y="9" width="12" height="22" rx="2" fill="url(#index-stats-wave-grad)" opacity="1"/>
-      <rect x="606" y="13" width="12" height="14" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"/>
-      <rect x="628" y="17" width="12" height="6" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"/>
+      <rect x="540" y="17" width="12" height="6" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"></rect>
+      <rect x="562" y="13" width="12" height="14" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"></rect>
+      <rect x="584" y="9" width="12" height="22" rx="2" fill="url(#index-stats-wave-grad)" opacity="1"></rect>
+      <rect x="606" y="13" width="12" height="14" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"></rect>
+      <rect x="628" y="17" width="12" height="6" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"></rect>
 
-      <rect x="700" y="18" width="18" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.5"/>
-      <rect x="728" y="14" width="18" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"/>
-      <rect x="756" y="10" width="18" height="20" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.9"/>
-      <rect x="784" y="14" width="18" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"/>
-      <rect x="812" y="18" width="18" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.5"/>
+      <rect x="700" y="18" width="18" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.5"></rect>
+      <rect x="728" y="14" width="18" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"></rect>
+      <rect x="756" y="10" width="18" height="20" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.9"></rect>
+      <rect x="784" y="14" width="18" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.7"></rect>
+      <rect x="812" y="18" width="18" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.5"></rect>
 
-      <rect x="870" y="16" width="16" height="8" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"/>
-      <rect x="896" y="12" width="16" height="16" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"/>
-      <rect x="922" y="8" width="16" height="24" rx="2" fill="url(#index-stats-wave-grad)" opacity="1"/>
-      <rect x="948" y="12" width="16" height="16" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"/>
-      <rect x="974" y="16" width="16" height="8" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"/>
+      <rect x="870" y="16" width="16" height="8" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"></rect>
+      <rect x="896" y="12" width="16" height="16" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"></rect>
+      <rect x="922" y="8" width="16" height="24" rx="2" fill="url(#index-stats-wave-grad)" opacity="1"></rect>
+      <rect x="948" y="12" width="16" height="16" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"></rect>
+      <rect x="974" y="16" width="16" height="8" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"></rect>
 
-      <rect x="1030" y="18" width="20" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.4"/>
-      <rect x="1060" y="14" width="20" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"/>
-      <rect x="1090" y="10" width="20" height="20" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"/>
-      <rect x="1120" y="14" width="20" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"/>
-      <rect x="1150" y="18" width="20" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.4"/>
+      <rect x="1030" y="18" width="20" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.4"></rect>
+      <rect x="1060" y="14" width="20" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"></rect>
+      <rect x="1090" y="10" width="20" height="20" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.8"></rect>
+      <rect x="1120" y="14" width="20" height="12" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.6"></rect>
+      <rect x="1150" y="18" width="20" height="4" rx="2" fill="url(#index-stats-wave-grad)" opacity="0.4"></rect>
     </svg>
   </div>
 </section>
@@ -1324,29 +1324,29 @@
       <form class="contact-form" id="whatsapp-form">
         <div class="form-group">
           <label for="fullname" class="form-label">שם מלא</label>
-          <input type="text" id="fullname" name="fullname" class="form-input" placeholder="ישראל ישראלי" required>
+          <input type="text" id="fullname" name="fullname" class="form-input" placeholder="ישראל ישראלי" required="">
         </div>
         <div class="form-group">
           <label for="email" class="form-label">דוא"ל</label>
-          <input type="email" id="email" name="email" class="form-input" placeholder="israel@example.com" required>
+          <input type="email" id="email" name="email" class="form-input" placeholder="israel@example.com" required="">
         </div>
         <div class="form-group">
           <label for="phone" class="form-label">טלפון</label>
-          <input type="tel" id="phone" name="phone" class="form-input" placeholder="050-0000000" required>
+          <input type="tel" id="phone" name="phone" class="form-input" placeholder="050-0000000" required="">
         </div>
         <div class="form-group">
           <label for="message" class="form-label">הודעה</label>
-          <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="ספר לנו על הבעיה באגזוז, סוג הכלי והצליל הרצוי..." required></textarea>
+          <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="ספר לנו על הבעיה באגזוז, סוג הכלי והצליל הרצוי..." required=""></textarea>
         </div>
         <div class="privacy-consent">
           <label class="privacy-consent-label">
-            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required>
+            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
             <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
           </label>
         </div>
         <button type="submit" class="btn-submit">
           <span>שליחת פרטים בוואטסאפ</span>
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
         </button>
       </form>
     </div>
@@ -1357,12 +1357,12 @@
         <h3 class="cta-title">הדרך המהירה ביותר – וואטסאפ</h3>
         <p class="cta-description">שלחו לנו הודעה ישירות ותארו את סוג האופנוע או כלי השטח, מה השתנה בצליל האגזוז, ואיזה תיקון או שדרוג אתם מחפשים. אנחנו כאן כדי להחזיר את המפלצת שלכם לחיים.</p>
         <div class="cta-phone">
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          <a href="tel:+972506990280" class="cta-phone-link">050-699-0280</a>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:0506990280" class="cta-phone-link">050-699-0280</a>
         </div>
         <a href="https://wa.me/972506990280" target="_blank" class="cta-whatsapp-btn">
           <span>דברו איתנו עכשיו</span>
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
         </a>
       </div>
     </div>
@@ -1373,22 +1373,22 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <pattern id="carbon-pattern" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="rotate(45)">
-          <rect width="40" height="40" fill="none"/>
-          <line x1="0" y1="20" x2="40" y2="20" stroke="rgba(200,240,0,0.05)" stroke-width="1"/>
-          <line x1="20" y1="0" x2="20" y2="40" stroke="rgba(200,240,0,0.03)" stroke-width="1"/>
+          <rect width="40" height="40" fill="none"></rect>
+          <line x1="0" y1="20" x2="40" y2="20" stroke="rgba(200,240,0,0.05)" stroke-width="1"></line>
+          <line x1="20" y1="0" x2="20" y2="40" stroke="rgba(200,240,0,0.03)" stroke-width="1"></line>
         </pattern>
         <radialGradient id="lime-glow" cx="50%" cy="0%" r="60%">
-          <stop offset="0%" stop-color="#B9FF2E" stop-opacity="0.25"/>
-          <stop offset="100%" stop-color="#B9FF2E" stop-opacity="0"/>
+          <stop offset="0%" stop-color="#B9FF2E" stop-opacity="0.25"></stop>
+          <stop offset="100%" stop-color="#B9FF2E" stop-opacity="0"></stop>
         </radialGradient>
         <linearGradient id="divider-grad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#151719" stop-opacity="0.95"/>
-          <stop offset="100%" stop-color="#0D0D0D" stop-opacity="1"/>
+          <stop offset="0%" stop-color="#151719" stop-opacity="0.95"></stop>
+          <stop offset="100%" stop-color="#0D0D0D" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
-      <rect width="1200" height="80" fill="url(#divider-grad)"/>
-      <rect width="1200" height="80" fill="url(#carbon-pattern)"/>
-      <rect width="1200" height="80" fill="url(#lime-glow)"/>
+      <rect width="1200" height="80" fill="url(#divider-grad)"></rect>
+      <rect width="1200" height="80" fill="url(#carbon-pattern)"></rect>
+      <rect width="1200" height="80" fill="url(#lime-glow)"></rect>
     </svg>
   </div>
 </section>
@@ -1403,12 +1403,12 @@
         <a href="https://wa.me/972506990280" class="cta-btn-primary" target="_blank" rel="noopener noreferrer">
           <span class="cta-btn-text">דברו איתנו בוואטסאפ</span>
           <svg class="cta-btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"></path>
           </svg>
         </a>
         <a href="tel:0506990280" class="cta-btn-secondary">
           <svg class="cta-btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.1.31.03.66-.25.9l-2.19 2.2z" fill="currentColor"/>
+            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.1.31.03.66-.25.9l-2.19 2.2z" fill="currentColor"></path>
           </svg>
           <span class="cta-btn-text">050-699-0280</span>
         </a>
@@ -1417,16 +1417,16 @@
   </div>
   <div class="cta-spark-decor" aria-hidden="true">
     <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="40" cy="40" r="1.5" fill="#FF6B00" opacity="0.6"/>
-      <circle cx="120" cy="25" r="1" fill="#FF6B00" opacity="0.4"/>
-      <circle cx="170" cy="60" r="2" fill="#FF6B00" opacity="0.7"/>
-      <circle cx="80" cy="90" r="1.5" fill="#FF6B00" opacity="0.5"/>
-      <circle cx="150" cy="130" r="1" fill="#FF6B00" opacity="0.4"/>
-      <circle cx="30" cy="150" r="2" fill="#FF6B00" opacity="0.6"/>
-      <circle cx="100" cy="170" r="1.5" fill="#FF6B00" opacity="0.5"/>
-      <circle cx="60" cy="180" r="1" fill="#FF6B00" opacity="0.3"/>
-      <circle cx="180" cy="100" r="1.5" fill="#FF6B00" opacity="0.5"/>
-      <circle cx="50" cy="20" r="1" fill="#FF6B00" opacity="0.3"/>
+      <circle cx="40" cy="40" r="1.5" fill="#FF6B00" opacity="0.6"></circle>
+      <circle cx="120" cy="25" r="1" fill="#FF6B00" opacity="0.4"></circle>
+      <circle cx="170" cy="60" r="2" fill="#FF6B00" opacity="0.7"></circle>
+      <circle cx="80" cy="90" r="1.5" fill="#FF6B00" opacity="0.5"></circle>
+      <circle cx="150" cy="130" r="1" fill="#FF6B00" opacity="0.4"></circle>
+      <circle cx="30" cy="150" r="2" fill="#FF6B00" opacity="0.6"></circle>
+      <circle cx="100" cy="170" r="1.5" fill="#FF6B00" opacity="0.5"></circle>
+      <circle cx="60" cy="180" r="1" fill="#FF6B00" opacity="0.3"></circle>
+      <circle cx="180" cy="100" r="1.5" fill="#FF6B00" opacity="0.5"></circle>
+      <circle cx="50" cy="20" r="1" fill="#FF6B00" opacity="0.3"></circle>
     </svg>
   </div>
 </section>
@@ -1463,30 +1463,28 @@
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0506990280">0506990280</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%99%D7%A6%D7%97%D7%A7%20%D7%A9%D7%9E%D7%99%D7%A8%2C%20%D7%97%D7%A6%D7%95%D7%A8%20%D7%94%D7%92%D7%9C%D7%99%D7%9C%D7%99%D7%AA%2C%20%D7%A6%D7%A4%D7%95%D7%9F%2C%20103000%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">יצחק שמיר, חצור הגלילית, צפון, 103000, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">ימים א’–ה’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">יום ו’</span> <span class="hours-time">09:00–14:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://facebook.com/share/1GxiwKhS6Z/?mibextid=wwXIfr" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com/einon_eliya?igsh=MTZ4aTVpZzRpdjI2ag==" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/972506990280" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -1504,7 +1502,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972506990280" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
