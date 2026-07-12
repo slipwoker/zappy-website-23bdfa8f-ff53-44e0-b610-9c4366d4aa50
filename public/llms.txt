@@ -7,25 +7,25 @@
 ## Pages
 
 ### בית
-https://example.com
+https://agzoz-chai.zappy5.app
 סדנת אגזוזים שמחזירה לחיים מערכות פליטה שחוקות. תיקון, שיפוץ והחלפת צמר סלעים עם צליל מותאם אישית לאופנוע ורכב שטח. היכנסו עכשיו ותנו למנוע שלכם לשאוג מחדש!
 
 ### תודה - אגזוז חי
-https://example.com/thank-you
+https://agzoz-chai.zappy5.app/thank-you
 אגזוז חי - Exhaust Revival - תודה - אגזוז חי
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://agzoz-chai.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://agzoz-chai.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://agzoz-chai.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -38,8 +38,8 @@ Information about WCAG compliance and accessibility features.
 - Address: יצחק שמיר, חצור הגלילית, צפון, 103000, ישראל
 
 ### Contact form
-- URL: https://example.com
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://agzoz-chai.zappy5.app
+- Endpoint: https://agzoz-chai.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -69,6 +69,6 @@ Automotive Repair & Customization
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://agzoz-chai.zappy5.app/sitemap.xml
+- Robots: https://agzoz-chai.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://agzoz-chai.zappy5.app/llms-full.txt

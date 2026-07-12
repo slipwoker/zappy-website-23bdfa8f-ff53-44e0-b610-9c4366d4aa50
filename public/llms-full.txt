@@ -2,13 +2,13 @@
 
 Exhaust Revival (אגזוז חי) is a rugged, industrial-style motorcycle and off-road vehicle exhaust repair workshop that breathes new life into worn-out exhaust systems. The brand exudes raw power, craftsmanship, and authenticity — evoking the atmosphere of a real metalworking garage with fire, steel, and engine roar. Services include exhaust repair, internal rock wool replacement, performance restoration, and custom sound tuning. The brand speaks directly to passionate riders who want their machine to sound and perform at its best.
 
-Source: https://example.com
+Source: https://agzoz-chai.zappy5.app
 
 ---
 
 ## החייאו את המפלצת — תיקון אגזוזים — אגזוז חי - Exhaust Revival
 
-URL: https://example.com
+URL: https://agzoz-chai.zappy5.app
 Description: סדנת אגזוזים שמחזירה לחיים מערכות פליטה שחוקות. תיקון, שיפוץ והחלפת צמר סלעים עם צליל מותאם אישית לאופנוע ורכב שטח. היכנסו עכשיו ותנו למנוע שלכם לשאוג מחדש!
 
 החייאו את המפלצת — תיקון אגזוזים — אגזוז חי
@@ -614,7 +614,7 @@ Yamaha WR 450
 
 ## מדיניות פרטיות
 
-URL: https://example.com/privacy
+URL: https://agzoz-chai.zappy5.app/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -875,7 +875,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://example.com/accessibility
+URL: https://agzoz-chai.zappy5.app/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1145,7 +1145,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://example.com/terms
+URL: https://agzoz-chai.zappy5.app/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1434,7 +1434,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## תודה - אגזוז חי
 
-URL: https://example.com/thank-you
+URL: https://agzoz-chai.zappy5.app/thank-you
 Description: אגזוז חי - Exhaust Revival - תודה - אגזוז חי
 
 תודה - אגזוז חי
