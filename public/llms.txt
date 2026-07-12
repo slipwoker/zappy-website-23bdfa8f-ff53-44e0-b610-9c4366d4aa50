@@ -1,4 +1,4 @@
-# אגזוז חי - Exhaust Revival — Generative Engine Optimization Map
+# אגזוז חי — Generative Engine Optimization Map
 
 > Exhaust Revival (אגזוז חי) is a rugged, industrial-style motorcycle and off-road vehicle exhaust repair workshop that breathes new life into worn-out exhaust systems. The brand exudes raw power, craftsmanship, and authenticity — evoking the atmosphere of a real metalworking garage with fire, steel, and engine roar. Services include exhaust repair, internal rock wool replacement, performance restoration, and custom sound tuning. The brand speaks directly to passionate riders who want their machine to sound and perform at its best.
 
@@ -53,7 +53,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About אגזוז חי - Exhaust Revival
+## About אגזוז חי
 Exhaust Revival (אגזוז חי) is a rugged, industrial-style motorcycle and off-road vehicle exhaust repair workshop that breathes new life into worn-out exhaust systems. The brand exudes raw power, craftsmanship, and authenticity — evoking the atmosphere of a real metalworking garage with fire, steel, and engine roar. Services include exhaust repair, internal rock wool replacement, performance restoration, and custom sound tuning. The brand speaks directly to passionate riders who want their machine to sound and perform at its best.
 
 ## Target Audience
